@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PCMastermind</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <section class="contenedor__inicio">
+            <div class="contenido__inicio">
+                <div class="barra">
+                    <div class="barra__logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="componentes">
+                        <h1>Componentes</h1>
+                        <div class="compo">
+                            <img src="img/i1.png" alt="i1" width="50px">
+                            <a href="Inicio.html">CPU</a>
+                        </div>
+                        <div class="compo">
+                            <img src="img/i2.png" alt="i1" width="50px">
+                            <h2>Tarjeta Grafica</h2>
+                        </div>
+                        <div class="compo">
+                            <img src="img/i4.png" alt="i1" width="50px">
+                            <h2>Placa Madre</h2>
+                        </div>
+                        <div class="compo">
+                            <img src="img/i5.png" alt="i1" width="50px">
+                            <h2>RAM's</h2>
+                        </div>
+                        <div class="compo">
+                            <img src="img/i6.png" alt="i1" width="50px">
+                            <h2>Almacenamiento</h2>
+                        </div>
+
+                        <h1>Tienda</h1>
+                        <div class="compo">
+                            <img src="img/i3.png" alt="i1" width="50px">
+                            <a href="Ciudad.html">Ciudad</a>
+                        </div>
+                    </div>
+                    <div class="otros">
+                    <div class="Recomendacion">
+                        <a href="Recomendación.html">Recomendacion</a>
+                    </div>
+                    <div class="Comunidad">
+                        <a href="Comunidad.html">Comunidad</a>
+                    </div>
+                    <div class="Sobre">
+                        <a href="Sobre_Nosotros.html">Sobre Nosotros</a>
+                    </div>
+                </div>
+                </div>
+                <div class="mejora__componente">
+                    <div class="compone">
+                        <input type="text" id="presupuesto" placeholder="Presupuesto">
+                        <input type="text" id="preferencias" placeholder="Preferencias">
+                    </div>
+                    
+                    <div class="compone">
+                        <img src="img/i1.png" alt="i1" width="100px">
+                        <h2>CPU</h2>
+                        <div class="seleccione">
+                            <select id="cpuSelect">
+                                <option value="" disabled="disabled" selected="selected">-- Seleccione --</option>
+                                <option value="Intel core i5">Intel core i5</option>
+                                <option value="AMD Rysen 5">AMD Rysen 5</option>
+                                <option value="Intel core i7">Intel core i7</option>
+                                <option value="ADM Rysen 3">ADM Rysen 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="compone">
+                        <img src="img/i2.png" alt="i1" width="200px">
+                        <h2>Tarjeta Grafica</h2>
+                        <div class="seleccione"">
+                            <select id="tgSelect">
+                                <option value="" disabled="disabled" selected="selected">-- Seleccione --</option>
+                                <option value="NVIDIA GeForce 3090">NVIDIA RTX 3090</option>
+                                <option value="NVIDIA 3070">NVIDIA RTX 3070</option>
+                                <option value="AMD Radeon 6900 XT">AMD RX 6900 XT</option>
+                                <option value="NVIDIA 3060 Ti">NVIDIA RTX 3060 Ti</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="compone">
+                        <img src="img/i4.png" alt="i1" width="80px">
+                        <h2>Placa Madre</h2>
+                        <div class="seleccione">
+                            <select id="pmSelect">
+                                <option value="" disabled="disabled" selected="selected">-- Seleccione --</option>
+                                <option value="ASUS ROG Strix Z590-E">ASUS ROG Z590-E</option>
+                                <option value="GIGABYTE B450M DS3H">GIGABYTE DS3H</option>
+                                <option value="GIGABYTE X570 AORUS Elite">GIGABYTE X570</option>
+                                <option value="MSI MAG B550 TOMAHAWK">MSI TOMAHAWK</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="compone">
+                        <img src="img/i5.png" alt="i1" width="150px">
+                        <h2>RAM's</h2>
+                        <div class="seleccione">
+                            <select id="ramSelect">
+                                <option value="" disabled="disabled" selected="selected">-- Seleccione --</option>
+                                <option value="32gb">32gb</option>
+                                <option value="16gb">16gb</option>
+                                <option value="8gb">8gb</option>
+                                <option value="4gb">4gb</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="compone">
+                        <img src="img/i6.png" alt="i1" width="100px">
+                        <h2>Almacenamiento</h2>
+                        <div class="seleccione">
+                            <select id="alSelect">
+                                <option value="" disabled="disabled" selected="selected">-- Seleccione --</option>
+                                <option value="1T">1T</option>
+                                <option value="500gb">500gb</option>
+                                <option value="256gb">256gb</option>
+                                <option value="128gb">128gb</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="compone">
+                    <button id="analizarBtn">
+                        Analizar
+                    </button>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="recommendations">
+            <!-- Aquí se mostrarán las recomendaciones -->
+        </div>
+        
+        <script src="Js/styles.js"></script>
+    </body>
+</html>
